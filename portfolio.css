@@ -3,6 +3,10 @@
     --primary-color: #ffff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 
 * {
