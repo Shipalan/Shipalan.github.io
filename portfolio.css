@@ -1,0 +1,130 @@
+:root {
+    --highlight-color:rgb(242,107,78);
+    --primary-color: #ffff;
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(35,35,35);
+    /* cursor: url('./pics/fox-logo.png'),auto; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.highlight {
+    color: var(--highlight-color)
+}
+
+
+
+h2{
+font-family: 'Caveat', cursive;
+color: var(--highlight-color);
+font-size: 3em;
+}
+
+h3 {
+    color: var(--primary-color)
+}
+
+p {
+    color: var(--primary-color);
+}
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primary-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+}
+
+.heroRow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1188px;
+}
+
+.aboutMe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 1100px;
+    background-color: rgb(31,31,31);
+    width: 100%;
+}
+
+.aboutMeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    
+    padding: 350px 40px;
+    width: 100%;
+    
+}
+
+.h2aboutMe {
+    text-align: center;
+}
+
+.wdh2 {
+    font-size: 5em;
+    color: rgb(73,73,73);
+}
+
+.wd {
+    font-size: 6em;
+    color: var(--primary-color);
+}
+
+.aboutMeP {
+    max-width: 500px;
+}
+
+.imgBorder {
+    border: 5px solid var(--highlight-color);
+    width: min-content;
+    margin: 20px 0 0 20px;
+}
+
+.bio {
+    padding: 40px;
+}
+
+.imgBackgroundColor {
+    position: relative;
+    background-color: rgb(22,22,22);
+    left: -20px;
+    top: -20px;
+}
+
+.container {
+    max-width: 1700px;
+    width: 100%;
+}
