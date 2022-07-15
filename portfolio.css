@@ -25,7 +25,12 @@ header {
     justify-content: space-between;
     padding: 25px 100px;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 }
+
+
 
 main {
     display: flex;
