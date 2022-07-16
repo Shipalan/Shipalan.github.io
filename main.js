@@ -16,8 +16,17 @@ app.get("/css", (req,res) => {
 app.get("/js", (req,res) => {
     res.sendFile(path.join(__dirname, "./main.js")) 
 })
-app.get("/pics", (req,res) => {
-    res.sendFile(path.join(__dirname, "./pics")) 
+app.get("/gitHub", (req,res) => {
+    res.sendFile(path.join(__dirname, "./github-removebg-preview.png")) 
+})
+app.get("/linkedin", (req,res) => {
+    res.sendFile(path.join(__dirname, "./LI-In-Bug.png")) 
+})
+app.get("/myself", (req,res) => {
+    res.sendFile(path.join(__dirname, "./myself-removebg-preview.png")) 
+})
+app.get("/upArrow", (req,res) => {
+    res.sendFile(path.join(__dirname, "./upArrow-removebg-preview.png")) 
 })
 
 
