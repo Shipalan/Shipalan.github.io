@@ -1,224 +1,214 @@
 :root {
-    --highlight-color:rgb(242,107,78);
-    --primary-color: #ffff;
+  --highlight-color: rgb(242, 107, 78);
+  --primary-color: #ffff;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(35,35,35);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  cursor: url("/pointer")1 1, auto;
+  background-color: rgb(35, 35, 35);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    padding: 25px 100px 0 100px;
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-    background-color: rgb(35,35,35);
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px 0 100px;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: rgb(35, 35, 35);
 }
 
-
-
 main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .highlight {
-    color: var(--highlight-color)
+  color: var(--highlight-color);
 }
 
-
-
-h2{
-font-family: 'Caveat', cursive;
-color: var(--highlight-color);
-font-size: 3em;
+h2 {
+  font-family: "Caveat", cursive;
+  color: var(--highlight-color);
+  font-size: 3em;
 }
 
 h3 {
-    color: var(--primary-color)
+  color: var(--primary-color);
 }
 
 p {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 h4 {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .nav {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--primary-color);
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.2em;   
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.2em;
 }
 
 #heroRow {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 1188px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1188px;
 }
 
 #aboutMe {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 1100px;
-    background-color: rgb(31,31,31);
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1100px;
+  background-color: rgb(31, 31, 31);
+  width: 100%;
 }
 
 .aboutMeContent {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 #skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 900px;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 900px;
 }
 
 .h2skills {
-    text-align: center;
-    font-size: 6em;
-    padding: 0 0 100px 0;
+  text-align: center;
+  font-size: 6em;
+  padding: 0 0 100px 0;
 }
 
 .skillList {
-    display: flex;    
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .skillList h4 {
-    font-size: 3em;
+  font-size: 3em;
 }
 
 .listGroup {
-    display: flex;
-    justify-content: space-between;
-    gap: 110px;
+  display: flex;
+  justify-content: space-between;
+  gap: 110px;
 }
 
 .hero {
-    
-    padding: 350px 40px;
-    width: 100%;
-    
+  padding: 350px 40px;
+  width: 100%;
 }
 
 .h2aboutMe {
-    text-align: center;
+  text-align: center;
 }
 
 .wdh2 {
-    font-size: 5em;
-    color: rgb(73,73,73);
+  font-size: 5em;
+  color: rgb(73, 73, 73);
 }
 
 .h2portfolio {
-    text-align: center;
-    font-size: 5em;
-    padding: 50px 0;
+  text-align: center;
+  font-size: 5em;
+  padding: 50px 0;
 }
 
 .wd {
-    font-size: 6em;
-    color: var(--primary-color);
+  font-size: 6em;
+  color: var(--primary-color);
 }
 
 .bio h3 {
-    font-size: x-large;
-    padding: 0 0 10px 0 ;
+  font-size: x-large;
+  padding: 0 0 10px 0;
 }
 
 .aboutMeP {
-    max-width: 500px;
-    font-size: large;
+  max-width: 500px;
+  font-size: large;
 }
 
 .imgBorder {
-    border: 5px solid var(--highlight-color);
-    width: min-content;
-    margin: 20px 0 0 20px;
+  border: 5px solid var(--highlight-color);
+  width: min-content;
+  margin: 20px 0 0 20px;
 }
 
 .bio {
-    padding: 40px;
+  padding: 40px;
 }
 
 .imgBackgroundColor {
-    position: relative;
-    background-color: rgb(22,22,22);
-    left: -20px;
-    top: -20px;
+  position: relative;
+  background-color: rgb(22, 22, 22);
+  left: -20px;
+  top: -20px;
 }
 
-
 #portfolio {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background-color: rgb(31,31,31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background-color: rgb(31, 31, 31);
 }
 
 .portfolioIcons {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }
 
-.links img{
-    aspect-ratio: auto;
-    height: 80px;
+.links img {
+  aspect-ratio: auto;
+  height: 80px;
 }
 
 .returnButton {
-    z-index: 5;
-    position: fixed;
-    bottom: 0;
-    right: 0;
+  z-index: 5;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 #rtnBtn {
-    aspect-ratio: 1;
-    height: 80px;
-    margin: 0 20px 0 0;
+  aspect-ratio: 1;
+  height: 80px;
+  margin: 0 20px 0 0;
 }
 
 .container {
-    max-width: 1700px;
-    width: 100%;
+  max-width: 1700px;
+  width: 100%;
 }
-

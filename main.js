@@ -17,16 +17,19 @@ app.get("/js", (req,res) => {
     res.sendFile(path.join(__dirname, "./main.js")) 
 })
 app.get("/gitHub", (req,res) => {
-    res.sendFile(path.join(__dirname, "./github-removebg-preview.png")) 
+    res.sendFile(path.join(__dirname, "./pics/github.png")) 
 })
 app.get("/linkedin", (req,res) => {
-    res.sendFile(path.join(__dirname, "./LI-In-Bug.png")) 
+    res.sendFile(path.join(__dirname, "./pics/linkedin.png")) 
 })
 app.get("/myself", (req,res) => {
-    res.sendFile(path.join(__dirname, "./myself-removebg-preview.png")) 
+    res.sendFile(path.join(__dirname, "./pics/myself.png")) 
 })
 app.get("/upArrow", (req,res) => {
-    res.sendFile(path.join(__dirname, "./upArrow-removebg-preview.png")) 
+    res.sendFile(path.join(__dirname, "./pics/upArrow.png")) 
+})
+app.get("/pointer", (req,res) => {
+    res.sendFile(path.join(__dirname, "./pics/pointer.png")) 
 })
 
 
