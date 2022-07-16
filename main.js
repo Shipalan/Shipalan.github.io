@@ -17,5 +17,5 @@ app.get("/js", (req,res) => {
     res.sendFile(path.join(__dirname, "./main.js")) 
 })
 
-const port = 3021;
+const port = process.env.PORT || 3021;
 app.listen(port, () => console.log(`Listening on port ${port}`));
