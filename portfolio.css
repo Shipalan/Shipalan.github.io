@@ -205,8 +205,6 @@ h4 {
 }
 
 .returnButton {
-    display: flex;
-    justify-content: flex-end;
     z-index: 5;
     position: fixed;
     bottom: 0;
