@@ -97,9 +97,26 @@
       </section>
     </main>
     <section class="returnButton">
-      <button id="returnBtn"><img class="returnButton" id="rtnBtn" src="/upArrow" alt="Return to Top"></button>
+      <button id="returnBtn">
+        <img
+          class="returnButton"
+          id="rtnBtn"
+          src="/upArrow"
+          alt="Return to Top"
+        />
+      </button>
     </section>
 
+    <script>
+      let returnBtn = document.getElementById("returnBtn");
+
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+
+      returnBtn.addEventListener("click", topFunction);
+    </script>
     <script src="/js"></script>
   </body>
 </html>

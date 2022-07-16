@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  cursor: url("/pointer")1 1, auto;
+  cursor: url("/pointer") 1 1, auto;
   background-color: rgb(35, 35, 35);
   min-height: 100vh;
   display: flex;
