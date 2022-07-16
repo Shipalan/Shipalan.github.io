@@ -6,6 +6,8 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+let returnBtn = document.getElementById("returnBtn")
+
 
 app.get("/", (req,res) => {
     res.sendFile(path.join(__dirname, "./index.html")) 
@@ -32,6 +34,12 @@ app.get("/pointer", (req,res) => {
     res.sendFile(path.join(__dirname, "./pics/pointer.png")) 
 })
 
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+returnBtn.app.listen("click", topFunction)
 
 const port = process.env.PORT || 3021;
 app.listen(port, () => console.log(`Listening on port ${port}`));
