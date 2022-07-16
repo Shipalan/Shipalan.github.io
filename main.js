@@ -17,7 +17,7 @@ app.get("/js", (req,res) => {
     res.sendFile(path.join(__dirname, "./main.js")) 
 })
 app.get("/gitHub", (req,res) => {
-    res.sendFile(path.join(__dirname, "./pics/github.png")) 
+    res.sendFile(path.join(__dirname, "./pics/gitHub.png")) 
 })
 app.get("/linkedin", (req,res) => {
     res.sendFile(path.join(__dirname, "./pics/linkedin.png")) 
